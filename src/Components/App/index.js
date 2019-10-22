@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import NavBar from "../NavBar/index.js";
-import Home from "../Home/index";
+import Home from "../../pages/Home/index";
+import "./style.css";
 
 import store from "../../store";
 

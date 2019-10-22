@@ -1,0 +1,22 @@
+.spotlight-wrapper {
+  position: absolute;
+  right: 45%;
+  top: 100px;
+}
+
+.spotlight-text {
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.spotlight-form {
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  height: 400px;
+  width: 400px;
+  background-color: red;
+}

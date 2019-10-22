@@ -7,8 +7,8 @@ class NavBar extends React.Component {
   render() {
     return (
       <Menu
-        pointing
         secondary
+        fixed="top"
         size="massive"
         className={
           this.props.location.pathname === "/" ? "transparent" : "green"

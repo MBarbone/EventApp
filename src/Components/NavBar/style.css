@@ -1,7 +1,30 @@
+.ui.secondary.menu {
+  height: 70px;
+}
+
 .ui.secondary.menu.transparent {
   background-color: transparent;
 }
 
 .ui.secondary.menu.green {
   background-color: green;
+}
+
+.ui.secondary.menu .item {
+  color: white;
+}
+
+.ui.input {
+  width: 500px;
+  height: 45px;
+  margin: auto 0;
+}
+
+.ui.icon.input > i.circular.icon {
+  top: 5px;
+}
+
+.ui.secondary.menu a.item:hover {
+  background-color: #7c7c7c52;
+  color: white;
 }
