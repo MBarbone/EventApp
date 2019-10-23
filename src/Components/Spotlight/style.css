@@ -1,22 +1,65 @@
 .spotlight-wrapper {
   position: absolute;
-  right: 45%;
+  right: 40%;
+  left: 25%;
   top: 100px;
+}
+
+.spotlight-image {
+  background-image: url("../../img/gvf.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 650px; /* You must set a specified height */
+  width: 850px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .spotlight-text {
   position: relative;
-  bottom: 30px;
+  bottom: 460px;
   left: 20px;
   font-size: 14px;
+  letter-spacing: 0.2em;
   color: white;
+  background-color: #27272780;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 8px;
 }
 
 .spotlight-form {
-  position: absolute;
-  left: 90%;
-  top: 20%;
+  position: relative;
+  bottom: 550px;
+  left: 750px;
   height: 400px;
-  width: 400px;
-  background-color: red;
+  width: 475px;
+  background-color: white;
+}
+
+.ui.form {
+  margin: 0 10px;
+}
+
+.ui.form input {
+  height: 38px;
+}
+
+.ui[class*="left icon"].input > i.icon {
+  top: -3px;
+}
+
+.search-form-field-container {
+  padding-top: 35px;
+}
+
+.search-form-field {
+  height: 38px;
+  margin-top: 5px;
+}
+
+.search-form-labels {
+  padding-top: 15px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }

@@ -16,6 +16,7 @@ class NavBar extends React.Component {
       >
         <Menu.Item name="Eventster" as={Link} to="/" />
         <Input
+          id="searchInput"
           icon={<Icon name="search" inverted circular link />}
           placeholder="Search..."
         />

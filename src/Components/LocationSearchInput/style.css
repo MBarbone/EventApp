@@ -1,0 +1,11 @@
+.location-search-input,
+.autocomplete-dropdown-container,
+.location-loading,
+.suggestion-item--active,
+.suggestion-item,
+.spannn {
+  z-index: 999;
+}
+.search-form-field {
+  margin-top: 20px;
+}
